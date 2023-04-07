@@ -1,7 +1,14 @@
 ﻿<!doctype html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="http://www.htmlhelp.com/style.css">
+
+
 <head>
     <title>The Great Hardware Password Manager !</title>
     <meta name="description" content="Our first page">
@@ -18,6 +25,7 @@
         h2 {
             color: maroon;
         }
+
         .container {
             position: relative;
             overflow: hidden;
@@ -44,26 +52,29 @@
             text-align: center;
             max-height: 788px;
         }
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #7A003C;
+            color: white;
+            font-size: 30px;
+        }
     </style>
 
 
 </head>
-<body style="background-color:white;">
-    <center><h1>Welcome to the HPMKey Mobile Information Center</h1></center>
-    <center><img src="logoz/HPMKey_Logo_MaroonTransparent.png" alt="Flowers in Chania" width="55%" height="45%" style="max-width:600px;"></img></center>
+<body style="background-color: #FCF7F7; ">
+    <div class="header">
+        <center><h1 style="color:whitesmoke">Welcome to the HPMKey Mobile Information Center</h1></center>
+        <center><img src="logoz/HPMKey_Logo_Maroon.png" alt="Flowers in Chania" width="55%" height="45%" style="max-width:600px;"></img></center>
+    </div>
 
-    <!--<center>
-        <a href="AboutUs.html" target="_blank">About Us</a>
-        <a href="Hardware.html" target="_blank">Hardware Implementation</a>
-        <a href="Application.html" target="_blank">GUI Implementation</a>
-        <a href="Firmware.html" target="_blank">Firmware Implementation</a>
-        <a href="Modeling.html" target="_blank">Modeling Implementation</a>
-    </center>-->
+
     <center><h2>Summary</h2></center>
     <p style="padding: 1%">
-        Due to the constant security breaches that have occured around the world, to many major companies that are highly trusted by public, ensuring the safety of ones online identity is becoming an ever more difficult task. Especially due to that fact that many users create simple passwords that are very easy to crack by simple guessing algorithms, or when they do decide to create a complicated password, they end up just using that same password over many websites as that is the only random password they have committed to memory, but if only one of these websites is hacked, then their entire online identity is at risk. The Hardware Password Manager, The HPMKey, aims to solve this issue by storing the users information on a portable USB device that uses SHA256 encryption, the HPMKey also aims to make the process of generating random passwords very simple so that the user is encouraged to create a random password for every website they use.
+        Due to the constant security breaches that have occured around the world, to many major companies that are highly trusted by public, ensuring the safety of ones online identity is becoming an ever more difficult task. Especially due to that fact that many users create simple passwords that are very easy to crack by simple guessing algorithms, or when they do decide to create a complicated password, they end up just using that same password over many websites as that is the only random password they have committed to memory, but if only one of these websites is hacked, then their entire online identity is at risk. The Hardware Password Manager, The HPMKey, aims to solve this issue by storing the users information on a portable USB device that uses AES256 encryption, the HPMKey also aims to make the process of generating random passwords very simple so that the user is encouraged to create a random password for every website they use.
     </p>
-    <center><img src="case.png" alt="Flowers in Chania" width="35%" height="35%"  style="max-width:600px;"></img></center>
+    <center><img src="case.png" alt="Flowers in Chania" width="35%" height="35%" style="max-width:600px;"></img></center>
     <center><h2>Meet The Team !</h2></center>
     <center>
         <table border="1" cellspacing="0" cellpadding="0" width="95%" align="center" table-layout="auto" style="max-width:1200px;">
@@ -92,8 +103,8 @@
                     &emsp;
                     <a href="https://www.linkedin.com/in/sawoud-al-los-983349170/"><i class="fa fa-linkedin fa_custom fa-2.0x"></i></a>
                 </th>
-                <th style="padding: 2%">
-                    Sawoud is a Computer Engineering student that has completed a 12-month Internship as a Software Developer at, Mitsubishi Heavy Industries – Regional Jets. His main tasks was completing the Windows application portion of the capstone and the website creation, the application was written in a .NET framework (version 4.7.2), using WinForms for the GUI, the PORTS library to communicate to the device over UART, and SHA256 for the encryption of data. The below link redirects to the repo on GitHub that contains the code, feel free to view it!  <br> <br>
+                <th style="padding: 2%" style="font-weight:normal">
+                    Sawoud is a Computer Engineering student that has completed a 12-month Internship as a Software Developer at, Mitsubishi Heavy Industries – Regional Jets. His main tasks was completing the Windows application portion of the capstone and the website creation, the application was written in a .NET framework (version 4.7.2), using WinForms for the GUI, the PORTS library to communicate to the device over UART, and AES256 for the encryption of data (SHA256 for hashing). The below link redirects to the repo on GitHub that contains the code, feel free to view it!  <br> <br>
                     <a href="https://github.com/Sawoud/HPM_Interface" target="_blank">GUI Implementation</a>
                 </th>
 
@@ -115,7 +126,7 @@
             </tr>
             <tr>
                 <th>
-                    Jeffery Guo<br><img src="me.png"  width="70%" height="70%">
+                    Jeffery Guo<br><img src="me.png" width="70%" height="70%">
                     <br>
                     <a href="mailto:"><i class="fa fa-envelope" style="font-size: 18px padding-right: 10px"></i></a>
                     &emsp;
@@ -141,6 +152,8 @@
 
     </center>
     <br>
-    <center><img src="logoz/download.jfif" alt="Flowers in Chania" width="55%" height="45%" style="max-height:500px; max-width:500px; overflow: hidden"></img></center>
+    <div class="header" style="background:white">
 
+        <center><img src="logoz/download.jfif" alt="Flowers in Chania" width="55%" height="45%" style="max-height:500px; max-width:500px; overflow: hidden"></img></center>
+        </div>
 </body>
